@@ -1,0 +1,1762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{40cc465d-1b45-4379-a3cf-9e82287d8fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Base">
+      <UniqueIdentifier>{fcfca07f-d934-44aa-826f-192ab9b9d202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common">
+      <UniqueIdentifier>{5c70f1ea-7d8f-4a77-a27d-1011e67bd441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Component">
+      <UniqueIdentifier>{72069909-ec87-4272-b522-1a6fe0188aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\External">
+      <UniqueIdentifier>{4a155b6d-1eb1-4a3d-a7e2-cd21857989ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Factory">
+      <UniqueIdentifier>{f32969de-f047-436a-bd15-fdcd7d1213fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\HUD">
+      <UniqueIdentifier>{4e6b0577-75f5-4ca2-a583-426147805b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Item">
+      <UniqueIdentifier>{7547f5c8-90bc-4b76-9e27-9407537ba550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager">
+      <UniqueIdentifier>{b11f355e-e101-4013-8526-efa76da60697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network">
+      <UniqueIdentifier>{106ee3e3-3424-4c8e-ae1a-12c714af488b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Message">
+      <UniqueIdentifier>{3208e338-af0c-488a-9889-8a104ef4a670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Popup">
+      <UniqueIdentifier>{b69c81fb-3f2c-4472-9662-b8ac67838a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{546042c2-ff30-400e-8499-d621981c647c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Platform">
+      <UniqueIdentifier>{337b6e80-0851-4e3b-91e9-16cdea0905b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Platform\Ios">
+      <UniqueIdentifier>{36341961-fb38-4704-a690-b4d55d562228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Proxy">
+      <UniqueIdentifier>{6ba8549e-bffa-45d9-ade8-8394c4abd4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Protocol">
+      <UniqueIdentifier>{2ae3c4b3-87ee-4792-8ee9-e93080090382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Shaders">
+      <UniqueIdentifier>{62e8c1a4-f2ce-476f-ab7b-e9c68e26cbe2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Base\BaseLayer.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Util.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\BossLayer.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\BuildComponent.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\BuildComponentResource.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\BuildingSignLayer.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\BuildProcessComponent.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\CampaignLineLayer.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\CampaignTimeLayer.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\MapDistanceLayer.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\descriptor.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\descriptor.pb.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\descriptor_database.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\dynamic_message.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\extension_set.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\extension_set_heavy.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\generated_message_reflection.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\generated_message_util.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\io\coded_stream.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\io\gzip_stream.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\io\printer.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\io\strtod.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\io\tokenizer.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\io\zero_copy_stream.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\io\zero_copy_stream_impl.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\message.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\message_lite.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\reflection_ops.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\repeated_field.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\service.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_x86_gcc.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_x86_msvc.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\stubs\common.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\stubs\once.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\stubs\stringprintf.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\stubs\structurally_valid.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\stubs\strutil.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\stubs\substitute.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\text_format.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\unknown_field_set.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\wire_format.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\External\protobuf\google\protobuf\wire_format_lite.cc">
+      <Filter>Classes\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Factory\UIFactory.cpp">
+      <Filter>Classes\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HUD\ArchitectureKeyHUD.cpp">
+      <Filter>Classes\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HUD\GroundManagementHUD.cpp">
+      <Filter>Classes\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\BossItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\BuildItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\CityItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\ExpItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\GoldItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\GoodsItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\InitialItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\Item.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\PropertyItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\ResourceItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\ResPathItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\SoldierItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\TalentItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\TalentSkillItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\TechnologyItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\TurretItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\CampaignManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\EffectManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\ErrorManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\EventManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\ItemManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\LocalizationManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\NetworkManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\PackageInfoManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\TimerManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\UIManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Network\GameSocket.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Network\MessageHandle.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Network\ODSocket.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Popup\InvestigatePopupLayer.cpp">
+      <Filter>Classes\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Popup\PropmtLayer.cpp">
+      <Filter>Classes\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\alliancebuild.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\alliancmagic.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\army.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\boss.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\build.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\city.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\config.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\exp.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\gold.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\initial.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\item.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\localization.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\magic.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\MsgDefine.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\MsgIndex.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\MsgStruct.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\newres.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\npc.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\picture.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\property.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\resources.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\soldier.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\soldierskill.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\talent.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\talentskill.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\turret.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\ActivityProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\BagProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\BigMapProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\CastleProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\GuildProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\IntelligenceProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\LoginProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\RoleProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\AccelerateTimeLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\ActivityLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\ArmyAttackLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BigMapLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BossInfoLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BuildHospitalLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BuildInfoDetailLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BuildInfoLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BuildTrainingLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BuildUpgradeLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\CastleLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\CollectionReportLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\FightReportInfoLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\FightReportLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GuildLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GuildSearchLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\IntelligenceLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\InvestigateReportDetail.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\LoginLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\NetworkLoadingLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TalentLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TechnologyLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TechnologyTreeLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TechnologyUpgradeLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TopAndBottomLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TopBannerLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\ArmyItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\DropEquipItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\DropFirstItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\DropRandomItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\DungeonItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\EquipAttrItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\EquipBaseItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\EquipStrengthItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\GuildExpItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\MapComponentItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\MonsterItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\PretreatmentManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\ShaderManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\allianceexp.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\dropequip.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\dropfirst.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\droprandom.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\dungeons.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\equipattr.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\equipbase.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\equipstrength.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\mapitem.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\monster.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\EquipProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\PVEProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\EquipBagLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GoldClearLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GuildApprovalLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GuildManagerLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GuildMemManagerLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GuildSearchDetailLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\PlayerInfoLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\PveInstanceLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\PveMonsterLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SelectEquipLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TalentUpPopupLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\TabBar.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\SkeletonManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\PVEReportLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\WarDetailLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\HelpshiftUtil.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Component\EditableListViewLayer.cpp">
+      <Filter>Classes\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\SoundItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\SoundManager.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\sound.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\task.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\InvestigateReportLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\TalkDataUtil.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\shop.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\EmailProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\RankProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\AlertLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BagLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BatchUseItemPopup.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\EmailLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\RankLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\RankListLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\WorldBossLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TaskLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\TaskProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\TaskItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\ChatLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\RechargeItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\GuideStepItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\PictureItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Popup\CoordinateSearchPopup.cpp">
+      <Filter>Classes\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\ChatProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\guidestep.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\GuideStepItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\RechargeItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\TaskItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\ChatProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Proxy\TaskProxy.cpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\ChatLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\EmailDetailLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TaskLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\guidestep.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\recharge.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Protocol\train.pb.cc">
+      <Filter>Classes\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item\PictureItem.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Popup\CoordinateSearchPopup.cpp">
+      <Filter>Classes\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\AniContrilScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Base\BaseLayer.hpp">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\DataStruct.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Param.hpp">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Singleton.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\TypeDefine.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Util.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\BossLayer.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\BuildComponent.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\BuildComponentResource.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\BuildingSignLayer.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\BuildProcessComponent.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\CampaignLineLayer.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\CampaignTimeLayer.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\MapDistanceLayer.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITAuthenticator.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITCrashAttachment.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITCrashDetails.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITCrashManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITCrashManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITCrashMetaData.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITFeedbackActivity.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITFeedbackComposeViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITFeedbackComposeViewControllerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITFeedbackListViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITFeedbackManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITFeedbackManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITHockeyAttachment.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITHockeyBaseManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITHockeyBaseViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITHockeyManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITHockeyManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITStoreUpdateManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITStoreUpdateManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITUpdateManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITUpdateManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\BITUpdateViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\HockeySDK.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\HockeySDKEnums.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\HockeySDKFeatureConfig.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\Headers\HockeySDKNullability.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\PrivateHeaders\BITCrashReportTextFormatterPrivate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\debug\HockeySDK.framework\PrivateHeaders\BITUpdateManagerPrivate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITAuthenticator.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITCrashAttachment.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITCrashDetails.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITCrashManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITCrashManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITCrashMetaData.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITFeedbackActivity.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITFeedbackComposeViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITFeedbackComposeViewControllerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITFeedbackListViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITFeedbackManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITFeedbackManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITHockeyAttachment.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITHockeyBaseManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITHockeyBaseViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITHockeyManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITHockeyManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITStoreUpdateManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITStoreUpdateManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITUpdateManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITUpdateManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\BITUpdateViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\HockeySDK.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\HockeySDKEnums.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\HockeySDKFeatureConfig.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\Headers\HockeySDKNullability.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\PrivateHeaders\BITCrashReportTextFormatterPrivate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\HockeySDK.framework\PrivateHeaders\BITUpdateManagerPrivate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITAuthenticator.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITCrashAttachment.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITCrashDetails.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITCrashManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITCrashManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITCrashMetaData.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITFeedbackActivity.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITFeedbackComposeViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITFeedbackComposeViewControllerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITFeedbackListViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITFeedbackManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITFeedbackManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITHockeyAttachment.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITHockeyBaseManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITHockeyBaseViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITHockeyManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITHockeyManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITStoreUpdateManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITStoreUpdateManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITUpdateManager.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITUpdateManagerDelegate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\BITUpdateViewController.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\HockeySDK.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\HockeySDKEnums.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\HockeySDKFeatureConfig.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\Headers\HockeySDKNullability.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\PrivateHeaders\BITCrashReportTextFormatterPrivate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\HockeyApp\Ios\release\HockeySDK.framework\PrivateHeaders\BITUpdateManagerPrivate.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\config.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\descriptor.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\descriptor.pb.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\descriptor_database.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\dynamic_message.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\extension_set.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\generated_enum_reflection.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\generated_message_reflection.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\generated_message_util.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\coded_stream.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\coded_stream_inl.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\gzip_stream.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\package_info.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\printer.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\strtod.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\tokenizer.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\zero_copy_stream.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\zero_copy_stream_impl.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\message.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\message_lite.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\package_info.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\reflection_ops.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\repeated_field.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\service.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_arm64_gcc.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_arm_gcc.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_arm_qnx.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_atomicword_compat.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_generic_gcc.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_macosx.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_mips_gcc.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_pnacl.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_solaris.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_tsan.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_x86_gcc.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\atomicops_internals_x86_msvc.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\common.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\hash.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\map_util.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\once.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\platform_macros.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\shared_ptr.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\stl_util.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\stringprintf.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\strutil.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\substitute.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\template_util.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\stubs\type_traits.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\text_format.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\unknown_field_set.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\wire_format.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\wire_format_lite.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\External\protobuf\google\protobuf\wire_format_lite_inl.h">
+      <Filter>Classes\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Factory\UIFactory.hpp">
+      <Filter>Classes\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HUD\ArchitectureKeyHUD.hpp">
+      <Filter>Classes\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HUD\GroundManagementHUD.hpp">
+      <Filter>Classes\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\BossItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\BuildItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\CityItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\ExpItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\GoldItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\GoodsItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\InitialItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\Item.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\PropertyItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\ResourceItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\ResPathItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\SoldierItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\TalentItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\TalentSkillItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\TechnologyItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\TurretItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\CampaignManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\EffectManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\ErrorManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\EventManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\ItemManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\LocalizationManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\NetworkManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\PackageInfoManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\TimerManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\UIManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Network\GameSocket.hpp">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Network\MessageHandle.hpp">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Network\NetworkPacket.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Network\ODSocket.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Message\GameMessage.h">
+      <Filter>Classes\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\Ios\PackageInfoIos.hpp">
+      <Filter>Classes\Platform\Ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Popup\InvestigatePopupLayer.hpp">
+      <Filter>Classes\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Popup\PropmtLayer.hpp">
+      <Filter>Classes\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\alliancebuild.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\alliancmagic.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\army.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\boss.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\build.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\city.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\config.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\exp.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\gold.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\initial.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\item.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\localization.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\magic.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\MsgDefine.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\MsgIndex.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\MsgStruct.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\newres.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\npc.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\picture.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\property.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\ProtoModel.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\resources.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\soldier.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\soldierskill.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\talent.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\talentskill.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\turret.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\ActivityProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\BagProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\BigMapProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\CastleProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\GuildProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\IntelligenceProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\LoginProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\RoleProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\AccelerateTimeLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\ActivityLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\ArmyAttackLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BigMapLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BossInfoLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BuildHospitalLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BuildInfoDetailLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BuildInfoLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BuildTrainingLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BuildUpgradeLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\CastleLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\CollectionReportLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\FightReportInfoLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\FightReportLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GuildLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GuildSearchLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\IntelligenceLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\InvestigateReportDetail.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\LoginLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\NetworkLoadingLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TalentLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TechnologyLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TechnologyTreeLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TechnologyUpgradeLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TopAndBottomLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TopBannerLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\ArmyItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\DropEquipItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\DropFirstItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\DropRandomItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\DungeonItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\EquipAttrItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\EquipBaseItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\EquipStrengthItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\GuildExpItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\MapComponentItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\MonsterItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\PretreatmentManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\ShaderManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\allianceexp.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\dropequip.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\dropfirst.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\droprandom.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\dungeons.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\equipattr.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\equipbase.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\equipstrength.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\mapitem.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\monster.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\EquipProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\PVEProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\EquipBagLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GoldClearLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GuildApprovalLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GuildManagerLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GuildMemManagerLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GuildSearchDetailLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\PlayerInfoLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\PveInstanceLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\PveMonsterLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SelectEquipLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TalentUpPopupLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\TabBar.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\SkeletonManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\PVEReportLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\WarDetailLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\HelpshiftUtil.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Component\EditableListViewLayer.hpp">
+      <Filter>Classes\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\SoundItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\SoundManager.hpp">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\sound.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\task.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\InvestigateReportLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\CallBackProxy.hpp">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\TalkDataUtil.hpp">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\shop.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\EmailProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\RankProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\AlertLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BagLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BatchUseItemPopup.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\EmailLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\RankLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\RankListLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\WorldBossLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TaskLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\TaskProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\TaskItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\ChatLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\RechargeItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\GuideStepItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\PictureItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Popup\CoordinateSearchPopup.hpp">
+      <Filter>Classes\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\ChatProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\guidestep.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\GuideStepItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\RechargeItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\TaskItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\ChatProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Proxy\TaskProxy.hpp">
+      <Filter>Classes\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\ChatLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\EmailDetailLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TaskLayer.hpp">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\guidestep.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\recharge.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Protocol\train.pb.h">
+      <Filter>Classes\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item\PictureItem.hpp">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Popup\CoordinateSearchPopup.hpp">
+      <Filter>Classes\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\AniContrilScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\Shaders\Shader_PositionTextureColor_ETC1.frag">
+      <Filter>Classes\Shaders</Filter>
+    </None>
+    <None Include="..\Classes\Shaders\Shader_PositionTextureColor_ETC1_GrayScale.frag">
+      <Filter>Classes\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

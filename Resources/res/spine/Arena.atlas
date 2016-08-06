@@ -1,0 +1,146 @@
+
+Arena.pkm
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arena
+  rotate: false
+  xy: 2, 17
+  size: 357, 237
+  orig: 357, 237
+  offset: 0, 0
+  index: -1
+Arena_EF1_01
+  rotate: false
+  xy: 1409, 44
+  size: 184, 104
+  orig: 184, 104
+  offset: 0, 0
+  index: -1
+Arena_EF1_02
+  rotate: false
+  xy: 1827, 154
+  size: 203, 100
+  orig: 203, 100
+  offset: 0, 0
+  index: -1
+Arena_EF1_03
+  rotate: false
+  xy: 1595, 50
+  size: 164, 98
+  orig: 164, 98
+  offset: 0, 0
+  index: -1
+Arena_EF1_04
+  rotate: false
+  xy: 1409, 150
+  size: 207, 104
+  orig: 207, 104
+  offset: 0, 0
+  index: -1
+Arena_EF1_05
+  rotate: false
+  xy: 1618, 150
+  size: 207, 104
+  orig: 207, 104
+  offset: 0, 0
+  index: -1
+Arena_EF2_01
+  rotate: true
+  xy: 1761, 76
+  size: 72, 52
+  orig: 72, 52
+  offset: 0, 0
+  index: -1
+Arena_EF2_02
+  rotate: true
+  xy: 1761, 2
+  size: 72, 52
+  orig: 72, 52
+  offset: 0, 0
+  index: -1
+Arena_EF2_03
+  rotate: true
+  xy: 361, 2
+  size: 71, 52
+  orig: 71, 52
+  offset: 0, 0
+  index: -1
+Arena_EF3_01
+  rotate: false
+  xy: 2, 2
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+Arena_EF3_02
+  rotate: false
+  xy: 2032, 243
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+Arena_EF4
+  rotate: true
+  xy: 415, 2
+  size: 32, 42
+  orig: 32, 42
+  offset: 0, 0
+  index: -1
+Arena_EF5_01
+  rotate: false
+  xy: 361, 75
+  size: 260, 179
+  orig: 260, 179
+  offset: 0, 0
+  index: -1
+Arena_EF5_02
+  rotate: false
+  xy: 623, 75
+  size: 260, 179
+  orig: 260, 179
+  offset: 0, 0
+  index: -1
+Arena_EF5_03
+  rotate: false
+  xy: 885, 75
+  size: 260, 179
+  orig: 260, 179
+  offset: 0, 0
+  index: -1
+Arena_EF5_04
+  rotate: false
+  xy: 1147, 75
+  size: 260, 179
+  orig: 260, 179
+  offset: 0, 0
+  index: -1
+Arena_EF6
+  rotate: false
+  xy: 516, 52
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+Arena_ef
+  rotate: false
+  xy: 471, 54
+  size: 43, 19
+  orig: 43, 19
+  offset: 0, 0
+  index: -1
+Arena_light01
+  rotate: false
+  xy: 1815, 141
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+Arena_shadow
+  rotate: false
+  xy: 415, 36
+  size: 54, 37
+  orig: 54, 37
+  offset: 0, 0
+  index: -1
